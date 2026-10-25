@@ -3,32 +3,38 @@
 #       grey = pay-TV channel restreamed by a third party, licensing unclear -> kids-en-grey.m3u
 # Anything not listed here is reported as a candidate and never written to a playlist.
 # channel_id	tier	group
-NickJrPlutoTV.us	core	Balita
-# Cartoonito is a pay-TV channel, not a FAST or public-service one; kept in core on Freza's call.
-CartoonitoAsia.sg	core	Balita
-ZooMoo.sg	core	Balita
-SuperSimpleSongs.us	core	Balita
-PBSKids.us	core	Anak
-ABCKids.au	core	Anak
-TVOKids.ca	core	Anak
-NickelodeonPlutoTV.us	core	Anak
-PlutoTVRetroKid.us	core	Anak
-LegoChannel.us	core	Anak
-WildEarth.za	core	Anak
-CartoonNetworkAsia.sg	grey	Anak
-CartoonNetwork.us	grey	Anak
-CartoonClassics.pl	grey	Anak
-Tooncast.us	grey	Anak
-TomAndJerry.do	grey	Anak
-Boomerang.us	grey	Anak
-NickJr.us	grey	Balita
-Nickelodeon.us	grey	Anak
-Nickelodeon.uk	grey	Anak
-Nicktoons.us	grey	Anak
-DisneyJunior.us	grey	Balita
-DisneyInternationalHD.in	grey	Anak
-StarzKidsFamily.us	grey	Anak
-JimJamEurope.uk	grey	Balita
-BabyTV.uk	grey	Balita
+PBSKids.us	core	Edukasi
+TVOKids.ca	core	Edukasi
+LoveNature.ca	core	Edukasi
+WildEarth.za	core	Edukasi
+# CCTV is the Chinese state broadcaster. CCTV-14 is its children's channel.
+CCTV14.cn	core	Mandarin
+CCTVWorldGeography.cn	core	Mandarin
+# Live recitation from Masjid al-Haram. Labelled "Not 24/7"; the Madinah feed
+# (AlSunnahAlNabawiyahTV.sa) is the fallback if this one goes dark.
+AlQuranAlKareemTV.sa	core	Ngaji
+ABCKids.au	core	Hiburan
+NickelodeonPlutoTV.us	core	Hiburan
+NickJrPlutoTV.us	core	Hiburan
 BabyFirst.us	grey	Balita
+BabyTV.uk	grey	Balita
+Boomerang.us	grey	Anak
+CartoonClassics.pl	grey	Anak
+CartoonNetwork.us	grey	Anak
+CartoonNetworkAsia.sg	grey	Anak
+CartoonitoAsia.sg	grey	Hiburan
+DisneyInternationalHD.in	grey	Anak
+DisneyJunior.us	grey	Balita
 EpicKids.in	grey	Anak
+JimJamEurope.uk	grey	Balita
+NickJr.us	grey	Balita
+Nickelodeon.uk	grey	Anak
+Nickelodeon.us	grey	Anak
+Nicktoons.us	grey	Anak
+StarzKidsFamily.us	grey	Anak
+TomAndJerry.do	grey	Anak
+Tooncast.us	grey	Anak
+# Da Vinci Asia: the STEM channel we want, but its only stream is a proxy that redirects to a
+# session-token'd Viettel TV360 address in Vietnam. Two of three probes timed out, so it would
+# be a channel that often refuses to open. The licensed route in Indonesia is Vidio.
+DaVinciAsia.de	grey	Edukasi

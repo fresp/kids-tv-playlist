@@ -1,24 +1,21 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="CartoonitoAsia.sg" tvg-name="Cartoonito Asia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Cartoonito_-_Logo_2021.svg/960px-Cartoonito_-_Logo_2021.svg.png" group-title="Balita",Cartoonito Asia
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
-http://cdn4.skygo.mn/live/disk1/Boomerang/HLSv3-FTA/Boomerang.m3u8
-#EXTINF:-1 tvg-id="NickJrPlutoTV.us" tvg-name="Nick Jr. Pluto TV" tvg-logo="https://i.imgur.com/8DAe8wr.png" group-title="Balita",Nick Jr. Pluto TV
-https://jmp2.uk/plu-62bdb75c3afd1200079146a6.m3u8
-#EXTINF:-1 tvg-id="SuperSimpleSongs.us" tvg-name="Super Simple Songs" tvg-logo="https://i.imgur.com/3k4F7O9.png" group-title="Balita",Super Simple Songs
-https://janson-supersimplesongs-1-us.roku.wurl.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="ZooMoo.sg" tvg-name="ZooMoo" tvg-logo="https://i.imgur.com/ciTJrnl.png" group-title="Balita",ZooMoo
-https://zoomoo-samsungau.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="ABCKids.au" tvg-name="ABC Kids" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/2/29/ABC_Kids_%282020%29.svg/revision/latest/scale-to-width-down/512" group-title="Anak",ABC Kids
-https://c.mjh.nz/abc-kids.m3u8
-#EXTINF:-1 tvg-id="LegoChannel.us" tvg-name="Lego Channel" tvg-logo="https://i.imgur.com/xePwW13.png" group-title="Anak",Lego Channel
-https://dltiqboxjw21d.cloudfront.net/index.m3u8
-#EXTINF:-1 tvg-id="NickelodeonPlutoTV.us" tvg-name="Nickelodeon Pluto TV" tvg-logo="https://images.pluto.tv/channels/5ca673e0d0bd6c2689c94ce3/colorLogoPNG.png" group-title="Anak",Nickelodeon Pluto TV
-https://jmp2.uk/plu-5ca673e0d0bd6c2689c94ce3.m3u8
-#EXTINF:-1 tvg-id="PBSKids.us" tvg-name="PBS Kids" tvg-logo="https://i.imgur.com/fg8c9WK.png" group-title="Anak",PBS Kids
+#EXTINF:-1 tvg-id="LoveNature.ca" tvg-name="Love Nature" tvg-logo="https://tv.lovenature.com/wp-content/uploads/2024/10/LoveNature2024_Logo_full_colour-copy.png" group-title="Edukasi",Love Nature
+https://mumbai-edge.smartplaytv.in/LoveNature/index.m3u8
+#EXTINF:-1 tvg-id="PBSKids.us" tvg-name="PBS Kids" tvg-logo="https://i.imgur.com/fg8c9WK.png" group-title="Edukasi",PBS Kids
 https://livestream.pbskids.org/out/v1/14507d931bbe48a69287e4850e53443c/est.m3u8
-#EXTINF:-1 tvg-id="PlutoTVRetroKid.us" tvg-name="Pluto TV Retro Kid" tvg-logo="https://images.pluto.tv/channels/6408b41b83f58900081d91ad/colorLogoPNG.png" group-title="Anak",Pluto TV Retro Kid
-https://jmp2.uk/plu-6408b41b83f58900081d91ad.m3u8
-#EXTINF:-1 tvg-id="TVOKids.ca" tvg-name="TVOKids" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tvokids-logo.svg/960px-Tvokids-logo.svg.png" group-title="Anak",TVOKids
+#EXTINF:-1 tvg-id="TVOKids.ca" tvg-name="TVOKids" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tvokids-logo.svg/960px-Tvokids-logo.svg.png" group-title="Edukasi",TVOKids
 https://fastly.live.brightcove.com/6369851620112/us-east-1/15364602001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoicGZncmlmLmVncmVzcy50N2M3emwiLCJhY2NvdW50X2lkIjoiMTUzNjQ2MDIwMDEiLCJlaG4iOiJmYXN0bHkubGl2ZS5icmlnaHRjb3ZlLmNvbSIsImlzcyI6ImJsaXZlLXBsYXliYWNrLXNvdXJjZS1hcGkiLCJzdWIiOiJwYXRobWFwdG9rZW4iLCJhdWQiOlsiMTUzNjQ2MDIwMDEiXSwianRpIjoiNjM2OTg1MTYyMDExMiJ9.zRE6fD9JwdbNLUIK5zgvlTAvXCQ3HeeE5p0yH0Pd3-Q/playlist-hls.m3u8
-#EXTINF:-1 tvg-id="WildEarth.za" tvg-name="WildEarth" tvg-logo="https://i.imgur.com/Vhv5gjN.png" group-title="Anak",WildEarth
+#EXTINF:-1 tvg-id="WildEarth.za" tvg-name="WildEarth" tvg-logo="https://i.imgur.com/Vhv5gjN.png" group-title="Edukasi",WildEarth
 https://dqga3jatxofgx.cloudfront.net/WildEarth.m3u8
+#EXTINF:-1 tvg-id="CCTV14.cn" tvg-name="CCTV-14" tvg-logo="https://i.imgur.com/c5SXW7i.png" group-title="Mandarin",CCTV-14
+http://74.91.26.218:82/live/cctv14hd.m3u8
+#EXTINF:-1 tvg-id="CCTVWorldGeography.cn" tvg-name="CCTV-World Geography" tvg-logo="https://i.imgur.com/V2ncOXi.png" group-title="Mandarin",CCTV-World Geography
+http://38.75.136.137:98/gslb/dsdqpub/sjdl.m3u8?auth=testpub
+#EXTINF:-1 tvg-id="AlQuranAlKareemTV.sa" tvg-name="Al Quran Al Kareem TV" tvg-logo="https://aloula.faulio.com/storage/mediagallery/da/6c/fullhd_7eaf7e165c4cad5b3a45eff65d2011e18be5d670.png" group-title="Ngaji",Al Quran Al Kareem TV
+http://m.live.net.sa:1935/live/quran/gmswf.m3u8
+#EXTINF:-1 tvg-id="ABCKids.au" tvg-name="ABC Kids" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/2/29/ABC_Kids_%282020%29.svg/revision/latest/scale-to-width-down/512" group-title="Hiburan",ABC Kids
+https://c.mjh.nz/abc-kids.m3u8
+#EXTINF:-1 tvg-id="NickJrPlutoTV.us" tvg-name="Nick Jr. Pluto TV" tvg-logo="https://i.imgur.com/8DAe8wr.png" group-title="Hiburan",Nick Jr. Pluto TV
+https://jmp2.uk/plu-62bdb75c3afd1200079146a6.m3u8
+#EXTINF:-1 tvg-id="NickelodeonPlutoTV.us" tvg-name="Nickelodeon Pluto TV" tvg-logo="https://images.pluto.tv/channels/5ca673e0d0bd6c2689c94ce3/colorLogoPNG.png" group-title="Hiburan",Nickelodeon Pluto TV
+https://jmp2.uk/plu-5ca673e0d0bd6c2689c94ce3.m3u8

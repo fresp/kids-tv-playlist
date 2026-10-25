@@ -113,7 +113,11 @@ def main():
             continue
         if "Geo-blocked" in (s["labels"] or []):
             continue
-        if not s["url"].startswith(("http://", "https://")) or ".m3u8" not in s["url"]:
+        if not s["url"].startswith(("http://", "https://")):
+            continue
+        # Discovery only looks at plain HLS; a curated channel is probed whatever its URL looks
+        # like, because some give HLS from a redirect with no .m3u8 in the address.
+        if cid not in pick and ".m3u8" not in s["url"]:
             continue
         todo.append(dict(channel=cid, url=s["url"], ua=s["user_agent"], ref=s["referrer"],
                          quality=s["quality"], labels=s["labels"] or [], height=0))
@@ -131,7 +135,7 @@ def main():
         if cur is None or rank > (cur["height"], cur["url"].startswith("https://")):
             best[s["channel"]] = s
 
-    order = {"Balita": 0, "Anak": 1, "Edukasi": 2}
+    order = {"Edukasi": 0, "Mandarin": 1, "Ngaji": 2, "Hiburan": 3}
     out = collections.defaultdict(list)
     for cid, (tier, group) in pick.items():
         s = best.get(cid)
