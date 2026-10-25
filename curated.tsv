@@ -1,0 +1,53 @@
+# Curated kids / education channels for TV Hub (iptv-org channel ids).
+# tier: core = free-to-air, public broadcaster or official FAST channel -> kids-en.m3u
+#       grey = pay-TV channel restreamed by a third party, licensing unclear -> kids-en-grey.m3u
+# Anything not listed here is reported as a candidate and never written to a playlist.
+# channel_id	tier	group
+ZooMoo.sg	core	Balita
+ducktv.sk	core	Balita
+Teletubbies.uk	core	Balita
+PeppaPig.us	core	Balita
+BabySharkTV.us	core	Balita
+SuperSimpleSongs.us	core	Balita
+MoonbugKids.uk	core	Balita
+LittleStarsUniverse.us	core	Balita
+DoraTV.us	core	Balita
+NickJrPlutoTV.us	core	Balita
+PBSKids.us	core	Anak
+ABCKids.au	core	Anak
+TVOKids.ca	core	Anak
+AkiliKids.ke	core	Anak
+HappyKids.us	core	Anak
+ToonGoggles.us	core	Anak
+KartoonChannel.us	core	Anak
+TinyPop.uk	core	Anak
+LegoChannel.us	core	Anak
+LEGOKidsTV.us	core	Anak
+GarfieldandFriends.us	core	Anak
+MrBeanAnimated.uk	core	Anak
+SmurfTV.us	core	Anak
+PlutoTVRetroKid.us	core	Anak
+NickelodeonPlutoTV.us	core	Anak
+WildEarth.za	core	Edukasi
+EnglishClubTV.uk	core	Edukasi
+PBS.us	core	Edukasi
+Create.us	core	Edukasi
+ClassicArtsShowcase.us	core	Edukasi
+CartoonNetworkAsia.sg	grey	Anak
+CartoonitoAsia.sg	grey	Anak
+CartoonNetwork.us	grey	Anak
+CartoonClassics.pl	grey	Anak
+Tooncast.us	grey	Anak
+TomAndJerry.do	grey	Anak
+Boomerang.us	grey	Anak
+NickJr.us	grey	Balita
+Nickelodeon.us	grey	Anak
+Nickelodeon.uk	grey	Anak
+Nicktoons.us	grey	Anak
+DisneyJunior.us	grey	Balita
+DisneyInternationalHD.in	grey	Anak
+StarzKidsFamily.us	grey	Anak
+JimJamEurope.uk	grey	Balita
+BabyTV.uk	grey	Balita
+BabyFirst.us	grey	Balita
+EpicKids.in	grey	Anak
