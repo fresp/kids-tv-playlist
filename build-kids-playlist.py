@@ -135,7 +135,7 @@ def main():
         if cur is None or rank > (cur["height"], cur["url"].startswith("https://")):
             best[s["channel"]] = s
 
-    order = {"Edukasi": 0, "Mandarin": 1, "Ngaji": 2, "Hiburan": 3}
+    order = {"Edukasi": 0, "Keluarga": 1, "Mandarin": 2, "Ngaji": 3, "Hiburan": 4}
     out = collections.defaultdict(list)
     for cid, (tier, group) in pick.items():
         s = best.get(cid)

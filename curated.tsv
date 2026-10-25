@@ -5,29 +5,27 @@
 # channel_id	tier	group
 PBSKids.us	core	Edukasi
 TVOKids.ca	core	Edukasi
-LoveNature.ca	core	Edukasi
-WildEarth.za	core	Edukasi
+# Family time: documentaries watched together with a parent.
+LoveNature.ca	core	Keluarga
+WildEarth.za	core	Keluarga
 # CCTV is the Chinese state broadcaster. CCTV-14 is its children's channel.
 CCTV14.cn	core	Mandarin
 CCTVWorldGeography.cn	core	Mandarin
-# Live recitation from Masjid al-Haram. Labelled "Not 24/7"; the Madinah feed
-# (AlSunnahAlNabawiyahTV.sa) is the fallback if this one goes dark.
+# Live recitation from Masjid al-Haram (not 24/7), with Masjid an-Nabawi as the fallback.
 AlQuranAlKareemTV.sa	core	Ngaji
+AlSunnahAlNabawiyahTV.sa	core	Ngaji
 ABCKids.au	core	Hiburan
 NickelodeonPlutoTV.us	core	Hiburan
 NickJrPlutoTV.us	core	Hiburan
-BabyFirst.us	grey	Balita
-BabyTV.uk	grey	Balita
 Boomerang.us	grey	Anak
 CartoonClassics.pl	grey	Anak
 CartoonNetwork.us	grey	Anak
 CartoonNetworkAsia.sg	grey	Anak
 CartoonitoAsia.sg	grey	Hiburan
 DisneyInternationalHD.in	grey	Anak
-DisneyJunior.us	grey	Balita
+DisneyJunior.us	grey	Anak
 EpicKids.in	grey	Anak
-JimJamEurope.uk	grey	Balita
-NickJr.us	grey	Balita
+NickJr.us	grey	Anak
 Nickelodeon.uk	grey	Anak
 Nickelodeon.us	grey	Anak
 Nicktoons.us	grey	Anak

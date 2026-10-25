@@ -9,9 +9,9 @@ probed from this machine before it lands in a playlist.
 | File | What it is |
 | :- | :- |
 | `curated.tsv` | The review list: iptv-org channel id, tier (`core` / `grey`), group. Hand-edited, the only place channels are chosen. |
-| `kids-en.m3u` | `core` tier, 10 channels in four groups: `Edukasi` (PBS Kids, TVOKids, Love Nature, WildEarth), `Mandarin` (CCTV-14, CCTV World Geography), `Ngaji` (live recitation from Masjid al-Haram) and `Hiburan` (ABC Kids, Nickelodeon and Nick Jr. on Pluto TV). Deliberately short — fewer channels to scroll through is the point. This is the one to load on the TV. |
-| `kids-en-grey.m3u` | `grey` tier: pay-TV channels (Cartoon Network, Nickelodeon, Disney Junior, BabyTV …) restreamed by third parties. Working, but almost certainly unlicensed. Not loaded by default. |
-| `candidates.txt` | Live English kids/education channels `curated.tsv` does not mention yet. Review by hand, then add. |
+| `kids-en.m3u` | `core` tier, 11 channels in five groups: `Edukasi` (PBS Kids, TVOKids), `Keluarga` (Love Nature, WildEarth — documentaries to watch with a parent), `Mandarin` (CCTV-14, CCTV World Geography), `Ngaji` (Masjid al-Haram, with Masjid an-Nabawi as the fallback) and `Hiburan` (ABC Kids, Nickelodeon and Nick Jr. on Pluto TV). Deliberately short — fewer channels to scroll through is the point. This is the one to load on the TV. |
+| `kids-en-grey.m3u` | `grey` tier: pay-TV channels (Cartoon Network, Nickelodeon, Disney Junior …) restreamed by third parties. Working, but almost certainly unlicensed. Not loaded by default. Generated, and gitignored rather than committed. |
+| `candidates.txt` | Live English kids/education channels `curated.tsv` does not mention yet. Review by hand, then add. Generated, and gitignored rather than committed. |
 
 ## Rebuild
 
@@ -25,4 +25,10 @@ and UDP — TV Hub plays none of those. Re-run when channels start failing on th
 
 ## Groups
 
-`Edukasi`, `Mandarin`, `Ngaji`, `Hiburan`. They show up as categories in TV Hub.
+`Edukasi`, `Keluarga`, `Mandarin`, `Ngaji`, `Hiburan`, plus `Anak` in the grey tier. They show up
+as categories in TV Hub.
+
+Movies and live sport are left out on purpose. Free movie channels run one schedule for every age
+and drift between ratings as the day goes on, so there is no hour that is reliably safe. Free live
+football and basketball exists only as unlicensed restreams, and those carry gambling adverts
+almost without exception. Watch both together in a licensed app instead.
