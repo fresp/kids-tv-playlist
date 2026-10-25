@@ -9,7 +9,7 @@ probed from this machine before it lands in a playlist.
 | File | What it is |
 | :- | :- |
 | `curated.tsv` | The review list: iptv-org channel id, tier (`core` / `grey`), group. Hand-edited, the only place channels are chosen. |
-| `kids-en.m3u` | `core` tier: public broadcasters (PBS Kids, ABC Kids, TVOKids), official FAST channels (Pluto TV, Moonbug, Super Simple Songs) and free-to-air (Akili Kids, WildEarth). This is the one to load on the TV. |
+| `kids-en.m3u` | `core` tier, 11 channels: public broadcasters (PBS Kids, ABC Kids, TVOKids), official FAST channels (Nickelodeon and Nick Jr. on Pluto TV, Retro Kid, Lego, Super Simple Songs) and free-to-air (ZooMoo, WildEarth). Deliberately short — fewer channels to scroll through is the point. This is the one to load on the TV. |
 | `kids-en-grey.m3u` | `grey` tier: pay-TV channels (Cartoon Network, Nickelodeon, Disney Junior, BabyTV …) restreamed by third parties. Working, but almost certainly unlicensed. Not loaded by default. |
 | `candidates.txt` | Live English kids/education channels `curated.tsv` does not mention yet. Review by hand, then add. |
 
