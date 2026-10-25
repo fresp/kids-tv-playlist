@@ -4,19 +4,22 @@
 # Anything not listed here is reported as a candidate and never written to a playlist.
 # channel_id	tier	group
 PBSKids.us	core	Edukasi
-TVOKids.ca	core	Edukasi
+ABCKids.au	core	Edukasi
+SuperSimpleSongs.us	core	Edukasi
+# Da Vinci Asia: the STEM channel Freza wants, aimed at 6-12. Its only stream is a proxy onto a
+# session-token'd Viettel TV360 address and it answered 0 of 8 probes on 2026-10-25, so the build
+# skips it until it comes back. The licensed route in Indonesia is a Vidio subscription.
+DaVinciAsia.de	core	Edukasi
 # Family time: documentaries watched together with a parent.
-LoveNature.ca	core	Keluarga
+ZooMoo.sg	core	Keluarga
 WildEarth.za	core	Keluarga
 # CCTV is the Chinese state broadcaster. CCTV-14 is its children's channel.
 CCTV14.cn	core	Mandarin
-CCTVWorldGeography.cn	core	Mandarin
 # Live recitation from Masjid al-Haram (not 24/7), with Masjid an-Nabawi as the fallback.
 AlQuranAlKareemTV.sa	core	Ngaji
 AlSunnahAlNabawiyahTV.sa	core	Ngaji
-ABCKids.au	core	Hiburan
-NickelodeonPlutoTV.us	core	Hiburan
 NickJrPlutoTV.us	core	Hiburan
+NickelodeonPlutoTV.us	core	Hiburan
 Boomerang.us	grey	Anak
 CartoonClassics.pl	grey	Anak
 CartoonNetwork.us	grey	Anak
@@ -32,7 +35,3 @@ Nicktoons.us	grey	Anak
 StarzKidsFamily.us	grey	Anak
 TomAndJerry.do	grey	Anak
 Tooncast.us	grey	Anak
-# Da Vinci Asia: the STEM channel we want, but its only stream is a proxy that redirects to a
-# session-token'd Viettel TV360 address in Vietnam. Two of three probes timed out, so it would
-# be a channel that often refuses to open. The licensed route in Indonesia is Vidio.
-DaVinciAsia.de	grey	Edukasi
