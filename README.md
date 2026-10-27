@@ -12,6 +12,9 @@ probed from this machine before it lands in a playlist.
 | `kids-en.m3u` | `core` tier, 11 channels tuned for a five-year-old, in five groups: `Edukasi` (PBS Kids, ABC Kids, Super Simple Songs, Da Vinci Asia), `Keluarga` (ZooMoo, WildEarth — watched with a parent), `Mandarin` (CCTV-14), `Ngaji` (Masjid al-Haram, with Masjid an-Nabawi as the fallback) and `Hiburan` (Nick Jr. and Nickelodeon on Pluto TV). Deliberately short — fewer channels to scroll through is the point. This is the one to load on the TV. |
 | `kids-en-grey.m3u` | `grey` tier: pay-TV channels (Cartoon Network, Nickelodeon, Disney Junior …) restreamed by third parties. Working, but almost certainly unlicensed. Not loaded by default. Generated, and gitignored rather than committed. |
 | `candidates.txt` | Live English kids/education channels `curated.tsv` does not mention yet. Review by hand, then add. Generated, and gitignored rather than committed. |
+| `Dockerfile`, `docker-compose.yml` | nginx in a container, listening on `127.0.0.1:8080`, with the repo mounted read-only at `/srv/playlist`. |
+| `nginx/default.conf` | Container vhost: serves top-level `*.m3u` / `*.m3u8` only, 404 for everything else in the repo. |
+| `nginx/host/01-acme.conf`, `nginx/host/02-iptv.conf` | Host vhosts for `iptv.fresp.my.id`: ACME bootstrap, then 80 → 443 with TLS and a proxy to the container. |
 
 ## Rebuild
 

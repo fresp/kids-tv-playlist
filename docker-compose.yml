@@ -1,0 +1,13 @@
+services:
+  playlist:
+    build: .
+    image: kids-tv-playlist:latest
+    container_name: kids-tv-playlist
+    restart: unless-stopped
+    # Loopback only: the reverse proxy on the host terminates TLS and forwards to this port.
+    # Serving the TV directly instead? Use "8080:8080" and keep port 8080 shut in the firewall.
+    ports:
+      - "127.0.0.1:8080:8080"
+    # Live mount, so rebuilding the playlist needs no image rebuild or restart.
+    volumes:
+      - ./:/srv/playlist:ro
